@@ -1,0 +1,19 @@
+.starship__img img {
+	max-width: 100%;
+}
+.starship {
+	background-color: #303030;
+	padding: 20px;
+	border: 1px solid #444;
+	border-radius: 0.25rem;
+}
+.starship__details ul {
+	padding-left: 20px;
+	margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.starship__details {
+		margin-top: 20px;
+	}
+}
